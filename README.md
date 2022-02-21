@@ -1,6 +1,2 @@
-# ClientServerChattingModule
-Download both server.py and client.py
-Run server.py first, then any number of instances of client.py
-Type a username in client.py, you can send messages that other clients can see after they press enter on their keyboard
-Typing ? on the command line in the client lists all the users connected to the server through client.py
-Typing . on the command line in the client returns the last message returned by each user
+Run client.py on your computer.
+Enter a username when prompted and if other users are connected to the same server, you will be able to chat with them.

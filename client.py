@@ -5,8 +5,9 @@ import sys
 
 HEADER_LENGTH = 10
 
-IP = "0.0.0.0"
-PORT = 1234
+
+IP = input("Enter the IP you want to connect to (format: x.x.x.x): ")
+PORT = int(input('Enter the port number: '))
 my_username = input("Username: ")
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
